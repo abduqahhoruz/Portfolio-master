@@ -1,0 +1,54 @@
+.fixed{
+    position: fixed;
+   background-color:var(--black-color) ;
+    top: 100px;
+    left:-120px;
+}
+
+.show{
+    left: 0;
+}
+.wrapColor{
+     padding: 20px 10px 10px 25px;
+     border-bottom: 1px solid grey;
+}
+.wrapButton{
+    display: flex;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+     padding: 10px 0;
+    box-sizing: border-box;
+}
+.settings{
+    background-color: var(--black-color);
+    width: 50px;
+    
+    height: 100%;
+    position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-left: 1px solid grey;  
+    bottom: 0;
+    right:-50px;
+
+}
+.SettingsIcon{
+    animation: spin 2s infinite linear; 
+    color: white;
+    &:hover{
+        color: var(--main-color);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}

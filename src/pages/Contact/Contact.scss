@@ -1,0 +1,41 @@
+
+
+
+
+/*CONTACT*/
+
+.contactInfo_item {
+    line-height: 34px  ;
+    font-size: 14px  ;
+    color: var(--text-color) ;
+  
+}
+
+.contactInfo_item > span {
+    color: black;
+    font-weight: 500;
+}
+
+.contactInfo_socialsContainer {
+    margin-top: 15px;
+}
+
+.contactInfo_social > a > .MuiSvgIcon-root {
+    font-size: 16px  ;
+    margin-right: 10px;
+    color: black;
+   &:hover {
+        color: var(--main-color) !important;
+      }
+}
+.contact-map iframe {
+    width: 100%;
+}
+.Map{
+    height: 350px;
+    width: 100%;
+    border: 0;
+    
+}
+
+
